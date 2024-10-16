@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div className="max-w-7xl mx-auto mt-5 font-font-gen max-lg:p-5">
       <div className="w-full flex max-lg:flex-col gap-6">
-        <div className="flex flex-1 ">
+        <div className="flex flex-1 max-lg:flex-col max-lg:gap-5">
           <input
             type="text"
             name=""
@@ -10,7 +10,7 @@ const Home = () => {
             placeholder="type your domain"
             className="border p-5 flex-1 outline-none"
           />
-          <button className=" bg-green  w-44 text-white outline-none">
+          <button className=" bg-green  w-44 max-lg:w-full py-5 text-white outline-none">
             Submit Domain
           </button>
         </div>
